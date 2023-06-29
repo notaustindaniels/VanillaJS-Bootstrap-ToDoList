@@ -1,3 +1,4 @@
+import "./style.css";
 let trashIcons = document.querySelectorAll("i.fa-trash");
 trashIcons.forEach(trashIcon => {
   trashIcon.addEventListener("click", function(event) {
